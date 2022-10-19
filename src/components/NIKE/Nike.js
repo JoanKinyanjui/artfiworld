@@ -7,12 +7,12 @@ function Nike() {
 
         <>
     <Container container style={{display:"flex",paddingTop:"162px" , justifyContent:"space-between"}} maxWidth="xl" >
-  <Grid item xs={6} md={8}>
+  <Grid item xs={12} md={8}>
     <Box>        <Typography className="headingtext">
         Nike New Launches!
         </Typography></Box>
   </Grid>
-  <Grid item xs={6} md={4}>
+  <Grid item xs={12} md={4}>
     <Box> <Button className='viewall' variant='outlined'>View All</Button></Box>
   </Grid>
 </Container>

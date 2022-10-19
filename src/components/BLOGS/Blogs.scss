@@ -72,3 +72,17 @@ white-space: nowrap;
    margin-bottom: 0 !important;
    background-position: center;
 }
+@media only screen and  (max-width:768px) {
+    .Blog2{
+        background-image: url('../../assets/blog2.png')!important;
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        height: 279px !important;
+        width: 100%   !important;
+        position: relative;
+        margin-top: 0 !important;
+        background-position: center;
+        margin: auto;
+    }
+    
+}

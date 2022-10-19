@@ -16,7 +16,7 @@ const Navdrawer = ({ open, setOpen }) => {
         }}
       >
         <Box
-          sx={{ width: "100vw", display: "flex", justifyContent: "flex-end" }}
+          // sx={{ width: "100vw", display: "flex", justifyContent: "flex-end" }}
         >
           <IconButton>
             <CloseIcon sx={{ color: "#000" }} />
