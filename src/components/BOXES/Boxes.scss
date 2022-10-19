@@ -33,3 +33,19 @@ font-weight: 700 !important;
 font-size: 64px !important;
 line-height: 140%   !important;
 }
+.BoxGrid :hover{
+    box-shadow: 3px 3px 6px;
+    border-radius: 5px;
+}
+.Numbers:hover{
+    box-shadow: none !important;
+}
+.Numbers1 :hover{
+    box-shadow: none !important;
+}
+.Sentence :hover{
+box-shadow: none !important;
+}
+.BoxesStack :hover{
+    box-shadow: none !important;
+}
