@@ -1,0 +1,53 @@
+.aboutusparent {
+    margin-top: 120px;
+}
+.aboutimage {
+    background-image: url('../../assets/treadmill.png');
+    // max-width: 592px;
+    width: 100%;
+    height: 592px;
+    left: 748px;
+    top: 2079px;
+    background-position: center;
+    background-size: cover !important;
+
+}
+.aboutustext {
+    margin-top: 191px;
+
+}
+.heading {
+    // position: absolute;
+width: 283px !important;
+height: 77px !important;
+// left: 100px;
+// top: 2250px;
+
+font-family: 'Manrope' !important;
+font-style: normal !important;
+font-weight: 300 !important;
+font-size: 64px !important;
+line-height: 120% !important;
+color: #000000;
+}
+.underline {
+    background-color: #2E90EA ;
+    margin-top: 24px !important;
+    height: 8px;
+    width: 144px;
+
+}
+.boxdesc {
+    max-width: 547px;
+    padding-bottom: 20px;
+}
+.description {
+    width: 100%;
+    margin-top: 40px !important;
+    font-weight: 400!important;
+    font-family: 'Manrope', sans-serif !important;
+    font-size: 24px !important;
+    line-height: 33.6px !important;
+    color: #5F5F5F;
+
+}

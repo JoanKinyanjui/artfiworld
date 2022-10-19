@@ -1,0 +1,45 @@
+.Subscribe{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.subparent {
+    height: 374px !important;
+    background: #000000;
+    margin: auto;
+}
+.subbox{
+display: flex;
+justify-content: space-between;
+width: 80%;
+margin: auto;
+
+}
+.subscribetext {
+// margin-top: 110px !important;
+color: #fff !important;
+width: 519px;
+height: 154px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700 !important;
+font-size: 64px !important;
+text-align: left;
+margin-top: 110px !important;
+}
+.btnSubscribe{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 40px;
+    gap: 10px;
+    width: 198px;
+    height: 61px;
+    margin-top: 110px !important;
+    
+    background: #2E90EA !important;
+border-radius: 34px !important;
+color: #FFFFFF !important;
+
+
+}

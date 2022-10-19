@@ -1,0 +1,41 @@
+.brandsparent {
+
+    background-color: #fff;
+    width: 100vw !important;
+    height: 200px;
+    margin-top: 30vh;
+   
+}
+.brandGrid{
+    display: flex;
+}
+.brandpartners {
+    // position: absolute;
+width: 307px;
+height: 24px;
+// left: 100px;
+// top: 947px;
+
+font-family: 'Manrope', sans-serif !important;
+font-style: normal !important;
+font-weight: 700 !important;
+font-size: 20px !important;
+line-height: 120% !important;
+/* identical to box height, or 24px */
+
+letter-spacing: 5px !important;
+white-space: nowrap;
+
+color: rgba(15, 15, 15, 0.7) !important;
+}
+.brandlogos {
+    display:flex;
+    justify-content: space-evenly;;
+}
+
+@media screen and (max-width: 860px) {
+    .brandGrid{
+        display: block;
+    }
+  }
+  

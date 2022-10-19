@@ -1,0 +1,74 @@
+.blogparent {
+    max-height: 599px !important;
+    height: 100% !important;
+
+}
+.newlaunch {
+    display: flex !important;
+    justify-content: space-between;
+   
+}
+.viewall {
+box-sizing: border-box;
+
+display: flex;
+
+padding: 16px 40px !important;
+width: 140px !important;
+height: 51px !important;
+background: #FFFFFF;
+font-family: 'Manrope', sans-serif !important;
+font-style: normal;
+font-weight: 700 !important;
+font-size: 16px !important;
+line-height: 120%;
+border: 1px solid #000000 !important;
+color: #000000!important;
+border-radius: 34px !important;
+white-space: nowrap;
+}
+.headingtext {
+    width: 279px;
+    height: 77px;
+    left: 100px;
+    top: 4743px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 120%;
+    color: #000000;
+}
+.underline2 {
+    background-color: #2E90EA ;
+    margin-top: 24px !important;
+    height: 8px;
+    width: 144px;
+}
+
+.Blog1{
+    background-image: url('../../assets/blog1.png')!important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+   height: 599px;
+   position: relative;
+   background-position: center
+}
+.Blog2{
+    background-image: url('../../assets/blog2.png')!important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    height: 279px !important;
+    position: relative;
+    margin-top: 0 !important;
+    background-position: center
+}
+.Blog3{
+    background-image: url('../../assets/blog3.png')!important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    height: 279px !important;
+   position: relative;
+   margin-bottom: 0 !important;
+   background-position: center;
+}

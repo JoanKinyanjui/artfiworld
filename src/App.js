@@ -1,24 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
+import Appbar from './components/APPBAR/Appbar';
+import Hero from './components/HERO/Hero';
+import Brands from './components/BRANDPARTNERS/Brands';
+import Gallery from './components/GALLERY/Gallery';
+import Aboutus from './components/ABOUTUS/Aboutus';
+import Nike from './components/NIKE/Nike';
+import Blogs from './components/BLOGS/Blogs';
+import Subscribe from './components/SUBSCRIBE/Subscribe';
+import Footer from './components/FOOTER/Footer';
+import { Toolbar } from '@mui/material';
+import BoxesDiv from './components/BOXES/Boxes';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Appbar/>
+    <Hero />
+    <Brands />
+    <Gallery />
+    <Aboutus />
+    <BoxesDiv/>
+    <Nike/>
+    <Blogs />
+    <Subscribe />
+    <Footer />
+    </>
   );
 }
 
