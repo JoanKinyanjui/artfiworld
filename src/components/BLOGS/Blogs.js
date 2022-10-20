@@ -23,7 +23,7 @@ function Blogs() {
                     </Box>
                 </Grid>
 
-                <Grid item xs={6} className='grid2' sx={{gap:'20px'}}>
+                <Grid item xs={12} sm={6} className='grid2' sx={{gap:'20px'}}>
                     <Stack sx={{gap:'40px'}} className="SmallBlogs">
                     <Box className='Blog2'>
                         <Stack className='textgallery1'>
