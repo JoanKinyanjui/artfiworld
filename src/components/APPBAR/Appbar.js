@@ -22,7 +22,7 @@ import Navdrawer from "./Navdrawer";
       setOpen(true);
     };
     return (
-      <AppBar sx={{background:'#fff',maxWidth:"100vw",width:"100%",margin:"0" }} >
+      <AppBar sx={{background:'#fff',width:"100%",margin:"0" }} >
         <Container maxWidth="xl">
           <Toolbar sx={{height:'100px'}}>
             <Box sx={{ width:{md:'40%',xs:'100%'} }}>
