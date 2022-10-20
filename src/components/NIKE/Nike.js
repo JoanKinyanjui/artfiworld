@@ -6,7 +6,7 @@ function Nike() {
     return (
 
         <>
-            <Container container style={{ display: 'flex', paddingTop: "162px", justifyContent: "space-between" }} maxWidth="xl" >
+            <Container container style={{ display: 'flex', paddingTop: "162px", justifyContent: "space-between" }} maxWidth="xl" className='BuyContainer' >
                 <Grid container spacing={1}>
                 <Grid item xs={12} md={8}>
                     <Box className='boxnike'>        

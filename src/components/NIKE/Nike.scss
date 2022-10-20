@@ -33,15 +33,7 @@ color: #000000!important;
 border-radius: 34px !important;
 white-space: nowrap;
 }
-.headingText{
-font-family: 'Manrope', sans-serif !important;
-font-style: normal !important;
-font-weight: 300 !important;
-line-height: 120% !important;
-color: #000000 !important;
-white-space: nowrap;
-font-size: 64px !important;
-}
+
 .headingtext {
 width: 100% !important;
 height: 77px !important;
@@ -186,16 +178,21 @@ margin-top: -30px;
 }
 
 @media screen and (max-width: 960px) {
-    .product-desc{
-        // float: inline-start !important;
+    .BuyContainer{
+        padding-top: 80px !important;
     }
-    .viewall{
-width: 90px !important;
-height: 31px !important;
-    }
- .headingText{
-    font-size: 38px !important;
- }
+
+    .headingtext {
+        width: 100% !important;
+        height: 77px !important;
+        font-family: 'Manrope', sans-serif;
+        font-style: normal !important;
+        font-weight: 300 !important;
+        font-size: 45px !important;
+        line-height: 120% !important;
+        color: #000000 !important;
+        white-space: nowrap;
+        }
  .product0{
     background-image: url('../../assets/product0.png');
     width:300px;
@@ -278,12 +275,30 @@ height: 31px !important;
             line-height: 22px;
             color: #5F5F5F;
             }
+
+.nike {
+                margin-top: 40px !important;
+                padding-bottom: 80px;
+                max-width: 100vw;
+                width: 100vw !important;
+                margin: auto;
+                padding-top: 112px;
+                place-items: center;
+            }       
   }
   
   @media screen and (max-width: 640px) {
-    .headingText{
-       font-size: 22px !important;
-    }
+    .headingtext {
+        width: 100% !important;
+        height: 77px !important;
+        font-family: 'Manrope', sans-serif;
+        font-style: normal !important;
+        font-weight: 300 !important;
+        font-size: 35px !important;
+        line-height: 120% !important;
+        color: #000000 !important;
+        white-space: nowrap;
+        }
 
     .product0{
         background-image: url('../../assets/product0.png');
