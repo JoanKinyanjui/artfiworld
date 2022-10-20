@@ -54,3 +54,19 @@ white-space: nowrap;
       
         }
 }
+
+@media only screen and (max-width:640px){
+   .footer-center{
+    display: grid;
+    justify-content: center;
+   }
+   .footer-center-btn{
+    display:grid;
+     justify-content: center;
+}
+
+}
+.footer-center-btn{
+    display:flex;
+    justify-content: flex-end;
+}

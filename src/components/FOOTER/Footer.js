@@ -21,7 +21,7 @@ function Footer() {
     }}>
         <Container maxWidth='xl' className='parentfooter'>
         <Grid container spacing={2} sx={{mb:'228px'}}>
-            <Grid item xs={12} sm={4}>
+            <Grid item xs={12} sm={4} className="footer-center" >
                 <Stack>
                 <Typography className = 'fitbitName2'>Fitbit<span className='period2'>.</span></Typography>
                 <Box className='sociallinks'>
@@ -32,7 +32,7 @@ function Footer() {
                 </Stack>
 
             </Grid>
-            <Grid item xs={12} sm={3}>
+            <Grid item xs={12} sm={3} className="footer-center" >
                 <Stack spacing={3}>
                 <Typography className = 'links'>Browse Classes</Typography>
                 <Typography className = 'links'>Shop Now</Typography>
@@ -40,7 +40,7 @@ function Footer() {
                 </Stack>
 
             </Grid>
-            <Grid item xs={12} sm={3}>
+            <Grid item xs={12} sm={3 } className="footer-center" >
                 <Stack spacing={3}>
                 <Typography className = 'links'>Services</Typography>
                 <Typography className = 'links'>Pricing</Typography>
@@ -48,7 +48,7 @@ function Footer() {
                 </Stack>
 
             </Grid>
-            <Grid item xs={12} sm={2}>
+            <Grid item xs={12} sm={2} className="footer-center" >
                 <Stack spacing={3}>
                 <Typography className = 'links'>About Us</Typography>
                 <Typography className = 'links'>Contact Us</Typography>
@@ -59,17 +59,17 @@ function Footer() {
         </Grid>
         <Grid>
             <Grid container  color="#5F5F5F">
-                <Grid item xs={12} sm={4}>
+                <Grid item xs={12} sm={4} className="footer-center" >
                     <Typography>Copyright 2022 Fitbit. All rights reserved</Typography>
                 </Grid>
-                <Grid item xs={12} sm={4}>
+                <Grid item xs={12} sm={4} className="footer-center" >
                     <Stack flexDirection="row" sx={{display:'flex', justifyContent:'space-between', flexDirection:{xs:'column', sm:'row'}}}>
                         <Typography>Privacy Policy</Typography>
                         <Typography>Cookie policy</Typography>
                         <Typography>Sitemap</Typography>
                     </Stack>
                 </Grid>
-                <Grid item xs={12} sm={4} sx={{display:'flex', justifyContent:'flex-end', pb:{xs:'2%',sm:'2%', md:"2%"}}}>
+                <Grid item xs={12} sm={4} sx={{pb:{xs:'2%',sm:'2%', md:"2%"}}} className="footer-center-btn" >
                     <Button variant='outlined' startIcon={<Avatar src={usa} sx={{ width:'20px', height:'20px'}}/>} className='countrybtn' endIcon={<KeyboardArrowDownIcon/>}> United States</Button>
                 </Grid>
             </Grid>
