@@ -80,11 +80,26 @@
         font-size: 45.27px !important;
         color: #fff;
     }
+    .Buttons {
+        display: inline-grid;
+        justify-content: center;
+        gap:12.03px;
+    }
+    .demobtn {
+        background-color: transparent;
+        border-radius: 34.0944px !important;
+        color: #fff !important;
+        padding: 12.0444px 10.1111px !important;
+        max-height: 51.09 !important;
+        line-height: 19.25px !important;
+        border-color: #fff !important;
+    }
+  
   }
   
   @media screen and (max-width: 680px) {
     .heroStack {
-        top: 20%;
+        top: 22%;
         left: 10% ;
         transform: translate(-50 -50);
         position:absolute;
@@ -95,5 +110,74 @@
         font-size: 30.87px !important;
         color: #fff;
     }
+    .demobtn {
+        background-color: transparent;
+        border-radius: 34.0944px !important;
+        color: #fff !important;
+        padding: 7.0444px 7.1111px !important;
+        max-height: 51.09 !important;
+        line-height: 19.25px !important;
+        border-color: #fff !important;
+        font-size: 12px!important;
+    }
+    .startbtn {
+        background-color: #fff !important;
+        color: #000 !important;
+        font-family: 'Manrope', sans-serif;
+        font-size: 12.04px !important;
+        font-weight: 700 !important;
+        line-height: 19.25px !important;
+        max-width: 171.22px !important;
+        width: 100% !important;
+        max-height: 51.09 !important;
+        height: 100% !important;
+        padding: 7.0444px 7.1111px !important;
+        border-radius: 34.0944px !important;
+        white-space: nowrap;
+        
+    
+    }
+   
   }
-  
+  @media screen and (max-width: 480px) {
+    .heroStack {
+        top: 15%;
+        left: 10% ;
+        transform: translate(-50 -50);
+        position:absolute;
+    }
+    .dareText {
+        font-family:'Manrope', sans-serif;
+        font-weight: 600 !important;
+        font-size: 30.87px !important;
+        color: #fff;
+    }
+    .demobtn {
+        background-color: transparent;
+        border-radius: 34.0944px !important;
+        color: #fff !important;
+        padding: 7.0444px 7.1111px !important;
+        max-height: 51.09 !important;
+        line-height: 19.25px !important;
+        border-color: #fff !important;
+        font-size: 12px!important;
+    }
+    .startbtn {
+        background-color: #fff !important;
+        color: #000 !important;
+        font-family: 'Manrope', sans-serif;
+        font-size: 12.04px !important;
+        font-weight: 700 !important;
+        line-height: 19.25px !important;
+        max-width: 171.22px !important;
+        width: 100% !important;
+        max-height: 51.09 !important;
+        height: 100% !important;
+        padding: 7.0444px 7.1111px !important;
+        border-radius: 34.0944px !important;
+        white-space: nowrap;
+        
+    
+    }
+   
+  }

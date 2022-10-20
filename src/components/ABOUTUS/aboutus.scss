@@ -1,5 +1,5 @@
 .aboutusparent {
-    margin-top: 120px;
+    margin-top: 70px;
 }
 .aboutimage {
     background-image: url('../../assets/treadmill.png');
@@ -50,4 +50,26 @@ color: #000000;
     line-height: 33.6px !important;
     color: #5F5F5F;
 
+}
+
+@media only screen and (max-width:768px){
+    .aboutusparent {
+        margin-top: 0px;
+    }
+    .aboutustext {
+        margin-top:51px;
+    
+    }
+    .aboutimage {
+        background-image: url('../../assets/treadmill.png');
+        // max-width: 592px;
+        width: 100%;
+        height: 592px;
+        left: 748px;
+        top: 2079px;
+        background-position: right;
+        background-size: cover !important;
+    
+    }
+    
 }
