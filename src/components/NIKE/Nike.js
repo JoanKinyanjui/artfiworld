@@ -35,7 +35,7 @@ function Nike() {
                         <Box className="product-box">
                             <div className='product-details'>
                                 <p className='product-name'>Nike Metcon</p>
-                                <p className='product-price'>$120</p>
+                                <p className='product-price'>$120.00</p>
                             </div>
                             <div className='product-desc'>Training Shoes</div>
                         </Box>
@@ -45,7 +45,7 @@ function Nike() {
                         <Box className="product-box">
                             <div className='product-details'>
                                 <p className='product-name'>Nike Metcon</p>
-                                <p className='product-price'>$120</p>
+                                <p className='product-price'>$150.00</p>
                             </div>
                             <div className='product-desc'>Training Shoes</div>
                         </Box>
@@ -55,7 +55,7 @@ function Nike() {
                         <Box className="product-box">
                             <div className='product-details'>
                                 <p className='product-name'>Nike Metcon</p>
-                                <p className='product-price'>$120</p>
+                                <p className='product-price'>$120.00</p>
                             </div>
                             <div className='product-desc'>Training Shoes</div>
                         </Box>
@@ -65,7 +65,7 @@ function Nike() {
                         <Box className="product-box">
                             <div className='product-details'>
                                 <p className='product-name'>Nike Metcon</p>
-                                <p className='product-price'>$120</p>
+                                <p className='product-price'>$180.00</p>
                             </div>
                             <div className='product-desc'>Training Shoes</div>
                         </Box>
@@ -75,7 +75,7 @@ function Nike() {
                         <Box className="product-box">
                             <div className='product-details'>
                                 <p className='product-name'>Nike Metcon</p>
-                                <p className='product-price'>$120</p>
+                                <p className='product-price'>$120.00</p>
                             </div>
                             <div className='product-desc'>Training Shoes</div>
                         </Box>
@@ -85,7 +85,7 @@ function Nike() {
                         <Box className="product-box">
                             <div className='product-details'>
                                 <p className='product-name'>Nike Metcon</p>
-                                <p className='product-price'>$120</p>
+                                <p className='product-price'>$120.00</p>
                             </div>
                             <div className='product-desc'>Training Shoes</div>
                         </Box>
