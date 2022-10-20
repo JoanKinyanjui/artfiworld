@@ -12,7 +12,7 @@ function Brands() {
         <Container maxWidth='xl' className = 'brandsparent'>
             <Grid container spacing={2} className="brandGrid">
                 <Grid item xs={12} md={6}>
-                    <Box>
+                    <Box className="flexBug">
                         <Typography className='brandpartners'>OUR BRAND PARTNERS</Typography>
                     </Box>
                 </Grid>
