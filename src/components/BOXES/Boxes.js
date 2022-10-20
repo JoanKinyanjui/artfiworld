@@ -5,7 +5,7 @@ import './Boxes.scss';
 
 function BoxesDiv() {
   return (
-    <Container maxWidth="xl" style={{paddingTop:"172px"}} >
+    <Container maxWidth="xl" style={{paddingTop:"172px"}} className="BigBoxx">
 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 1 }}>
   <Grid item xs={6} md={3} className="BoxGrid" >
     <Stack className="BoxesStack" >
